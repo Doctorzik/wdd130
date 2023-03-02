@@ -53,7 +53,6 @@ header {display: grid;
 #logo_link {padding-top: 5px;
 justify-self: center;
 align-self: center;}
-
 nav a:hover{
   background-color: black;
 }
@@ -150,6 +149,21 @@ box-shadow: 5px 5px 10px #6f7364;}
 .card-img:hover {opacity: .6;
 transform: scale(1.1);}
 
+/* This line is the css for the FAQ page 
+     */
+.ss {margin-top: 0%;
+z-index: -1;}
+.faq img {width: 450px;
+float: right;}
+.faq {
+  text-align: center;
+  align-items: center;
+}
+.faq img:hover {opacity: .6;
+  transform: scale(1.1);}
+.first {display: grid;
+grid-template-columns: 80% auto;}
+.more {align-self:flex-end;}
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
