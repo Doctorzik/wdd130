@@ -165,7 +165,8 @@ float: right;}
 .first {display: grid;
 grid-template-columns: 80% auto;
 margin-bottom: 0%;
-padding-bottom: 0%;}
+padding-bottom: 30px;
+}
 .more {align-self:flex-end;
   background-color: #1f1b0f;
   margin: 40px;
@@ -173,6 +174,7 @@ padding-bottom: 0%;}
   color: whitesmoke;
   margin-bottom: 0%;
 }
+.faq-grid {margin-left: 30px;}
   
 .pp {
   line-height: 100%;
