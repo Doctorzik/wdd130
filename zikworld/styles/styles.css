@@ -17,11 +17,11 @@ header  {background-color: aqua;
   grid-template-columns: 150px auto;
   height: 100px;
   z-index: 1;
-  width: 1200px;
+  width: 1200px;}
   
+p {font-size: 20px;}
   
-  
-}
+
 .logo {width: 100px;}
 nav {
   display: flex;
@@ -42,7 +42,12 @@ a {text-decoration: none;
 }
 
 a:hover{color:white;
-background-color: #F4E04D;}
+background-color: #F4E04D;
+border: #54F2F2;
+border-width: 3px;
+margin: 6px ;
+padding: 6px;
+}
 
 .hero-section {
 display: grid;
@@ -64,6 +69,7 @@ width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr  ;
    }
+   .help {align-self:left ;}
 
    footer {padding: 25px 50px;
     margin-top: 20px;
