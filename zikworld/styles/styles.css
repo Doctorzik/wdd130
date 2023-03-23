@@ -17,7 +17,7 @@ header  {background-color: aqua;
   grid-template-columns: 150px auto;
   height: 100px;
   z-index: 1;
-  width: 1200px;}
+  width: 100%;}
   
 p {font-size: 20px;}
   
@@ -36,9 +36,11 @@ nav {
 
 nav  {text-align: center;
 text-decoration: none;
-z-index: 1;;}
+z-index: 1;
+padding: 5px ;}
 
 a {text-decoration: none;
+  display: inline-block;
 }
 
 a:hover{color:white;
@@ -57,6 +59,7 @@ width: 100%;
 }
 .ww {grid-column: 1/4;
   grid-row: 1/4;
+  width: 100%;
 }
   .hero-msg {
     grid-column: 2/3;
@@ -69,7 +72,8 @@ width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr  ;
    }
-   .help {align-self:left ;}
+   .help {align-self:left;
+      align-items: right;}
 
    footer {padding: 25px 50px;
     margin-top: 20px;
