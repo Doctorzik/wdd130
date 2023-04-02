@@ -10,7 +10,8 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   margin: 0;
-  padding: 0;}
+  padding: 10px;}
+  ol { list-style-type: none;  }
 
 header  {background-color: aqua;
   display: grid;
@@ -142,6 +143,9 @@ width: 100%;
     justify-content: space-around;
     align-items: center;}
 
+    .others {
+      margin-left: 40%;
+    }
 
     @media screen and (max-width: 900px) {
       .hero-section, .home {
